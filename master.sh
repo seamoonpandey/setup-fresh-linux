@@ -4,8 +4,10 @@ set -e
 
 echo "Starting environment setup..."
 
-./remove_snapd.sh
-echo ""
+#  this is totally optional
+
+# ./remove_snapd.sh
+# echo ""
 
 ./install_basic_packages.sh
 echo ""
